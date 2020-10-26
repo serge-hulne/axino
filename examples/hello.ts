@@ -1,7 +1,7 @@
-import { Button } from "../button";
-import { log } from "../core";
-import { Label } from "../label";
-import { Div } from "../div";
+import { Button } from "axino/button";
+import { log } from "axino/core";
+import { Label } from "axino/label";
+import { Div } from "axino/div";
 
 
 

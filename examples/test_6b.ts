@@ -1,9 +1,9 @@
-import { Button } from "../button";
-import { log } from "../core";
-import { Div } from "../div";
-import { colors } from "../constants";
-import { TextArea } from "../textarea";
-import { Channel } from "../channel";
+import { Button } from "axino/button";
+import { log } from "axino/core";
+import { Div } from "axino/div";
+import { colors } from "axino/constants";
+import { TextArea } from "axino/textarea";
+import { Channel } from "axino/channel";
 
 var d1 = new Div(null);
 d1.appendToApp();

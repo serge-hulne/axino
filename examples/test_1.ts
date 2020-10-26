@@ -1,18 +1,18 @@
-import { Button } from "../button";
-import { log } from "../core";
-import { Label } from "../label";
-import { Div } from "../div";
-import { TextArea } from "../textarea";
-import { Olist } from "../olist";
-import { Select } from "../select";
-import { CheckBox } from "../checkbox";
-import { RadioButton } from "../radio";
-import { Form } from "../form";
-import { Canvas } from "../canvas";
-import { eventsMouse } from "../constants";
-import { colors } from "../constants";
-import { root } from "../core";
-import { Table } from "../table";
+import { Button } from "axino/button";
+import { log } from "axino/core";
+import { Label } from "axino/label";
+import { Div } from "axino/div";
+import { TextArea } from "axino/textarea";
+import { Olist } from "axino/olist";
+import { Select } from "axino/select";
+import { CheckBox } from "axino/checkbox";
+import { RadioButton } from "axino/radio";
+import { Form } from "axino/form";
+import { Canvas } from "axino/canvas";
+import { eventsMouse } from "axino/constants";
+import { colors } from "axino/constants";
+import { root } from "axino/core";
+import { Table } from "axino/table";
 
 
 function display() {

@@ -1,5 +1,5 @@
-import { Button } from "../button";
-import { log } from "../core";
+import { Button } from "axino/button";
+import { log } from "axino/core";
 
 let b1 = new Button("B1");
 

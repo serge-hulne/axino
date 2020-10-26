@@ -3,7 +3,7 @@
 Typescript component library, alternative to frameworks like Vue, React, Angular for front-end app development. Small footprint. Pure HTML5 / CSS / TS.
 
 
-# Installation:
+# Installation (from npm):
 
 npm i axino
 

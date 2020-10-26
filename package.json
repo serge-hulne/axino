@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "name": "axino",
+  "version": "1.0.10",
+  "dependencies": {},
+  "scripts": {
+    "test": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Serge HULNE <https://serge-hulne.medium.com/>",
+  "license": "GPL",
+  "description": "Typescript component library, alternative to frameworks like Vue, React, Angular for frontend app development. Small footprint. No js dependencies. Pure HTML5 / CSS / TS."
+}

@@ -3,13 +3,14 @@
     "typescript": "^3.8.3"
   },
   "name": "axino",
-  "version": "1.0.10",
+  "version": "1.0.14",
   "dependencies": {},
   "scripts": {
     "test": "parcel index.html",
     "build": "parcel build index.html"
   },
   "author": "Serge HULNE <serge.hulne@gmail.com> (https://serge-hulne.medium.com/)",
+  "tutorials": "https://serge-hulne.medium.com/getting-started-with-axino-4584bcdb99ca",
   "license": "GPL",
   "description": "Typescript component library, alternative to frameworks like Vue, React, Angular for frontend app development. Small footprint. No js dependencies. Pure HTML5 / CSS / TS.",
   "keywords": [

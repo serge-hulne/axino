@@ -10,11 +10,11 @@ class Input extends Component {
     }
 
     setText(text) {
-        this.node.value = text;
+        this.node.innerHTML = text;
     }
 
     getText() {
-        return this.node.value;
+        return this.node.innerHTML;
     }
 
     setPlaceholder(text: string) {

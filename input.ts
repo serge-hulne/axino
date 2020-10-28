@@ -14,7 +14,7 @@ class Input extends Component {
     }
 
     getText() {
-        return this.node.innerHTML;
+        return this.node.value;
     }
 
     setPlaceholder(text: string) {

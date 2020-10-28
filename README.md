@@ -100,3 +100,5 @@ and
 npm run build 
 ```
 respectively.
+
+(C) serge Hulne, 2020.

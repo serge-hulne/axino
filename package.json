@@ -1,26 +1,60 @@
 {
+  "_from": "axino",
+  "_id": "axino@1.0.18",
+  "_inBundle": false,
+  "_integrity": "sha512-UR9Qaxr//pGZOG5mXTiRYuXn8gaQH2LYyrwpFXLrBxfNZ5xsSK0MH1MjKRuCQ0zBLpvDwjMan+azcvfju8KYoQ==",
+  "_location": "/axino",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "axino",
+    "name": "axino",
+    "escapedName": "axino",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/axino/-/axino-1.0.18.tgz",
+  "_shasum": "e187738c0809847217fa420ab618eeb4d8df938d",
+  "_spec": "axino",
+  "_where": "C:\\Users\\serge\\Documents\\vue-tests\\vue-tests-nomodules\\electron-calculator-1\\electron-quick-start",
+  "author": {
+    "name": "Serge HULNE",
+    "email": "serge.hulne@gmail.com",
+    "url": "https://serge-hulne.medium.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/serge-hulne/axino/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Typescript component library, alternative to frameworks like Vue, React, Angular for frontend app development. Small footprint. No js dependencies. Pure HTML5 / CSS / TS.",
   "devDependencies": {
     "typescript": "^3.8.3"
   },
-  "name": "axino",
-  "version": "1.0.18",
-  "dependencies": {},
-  "scripts": {
-    "test": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "author": "Serge HULNE <serge.hulne@gmail.com> (https://serge-hulne.medium.com/)",
-  "tutorials": "https://serge-hulne.medium.com/getting-started-with-axino-4584bcdb99ca",
-  "license": "GPL",
-  "description": "Typescript component library, alternative to frameworks like Vue, React, Angular for frontend app development. Small footprint. No js dependencies. Pure HTML5 / CSS / TS.",
+  "homepage": "https://github.com/serge-hulne/axino",
   "keywords": [
     "front-end",
     "library",
     "components",
     "HTML5"
-  ], "homepage": "https://github.com/serge-hulne/axino",
+  ],
+  "license": "GPL",
+  "name": "axino",
   "repository": {
     "type": "git",
-    "url": "https://github.com/serge-hulne/axino"
-  }
+    "url": "git+https://github.com/serge-hulne/axino.git"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "test": "parcel index.html"
+  },
+  "tutorials": "https://serge-hulne.medium.com/getting-started-with-axino-4584bcdb99ca",
+  "version": "1.0.18"
 }

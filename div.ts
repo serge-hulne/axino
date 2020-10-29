@@ -3,7 +3,7 @@ import { Component } from "./core";
 class Div extends Component {
     constructor(props) {
         super(props);
-        this.htmlString = /*html*/ `<div style="padding:10px"></div>`;
+        this.htmlString = /*html*/ `<div></div>`;
         this.createNode();
         this.node.style.display = "flex";
         ///

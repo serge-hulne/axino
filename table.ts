@@ -2,7 +2,7 @@ import { Div } from "./div";
 
 class Table extends Div {
     props :any;
-    constructor(props) {
+    constructor(props:any) {
         if (props) {
             super(props);
             this.props = props;
@@ -16,7 +16,7 @@ class Table extends Div {
         }
     }
 
-    getHTMLfromJSON(lines) {
+    getHTMLfromJSON(lines:any) {
         var tableHeader: string = "";
         var tableBody: string = "";
 

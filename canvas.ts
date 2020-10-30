@@ -4,7 +4,7 @@ import { Component } from "./core";
 class Canvas {
     context: any;
     node: any;
-    constructor(props=null) {
+    constructor(props:any=null) {
         this.node = document.createElement("CANVAS");
         this.context = this.node.getContext("2d");
         ///

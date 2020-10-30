@@ -3,7 +3,7 @@ import { Component } from "./core";
 
 class TextArea extends Component {
 
-    constructor(props) {
+    constructor(props:any) {
         if (props) {
             super(props);
             this.htmlString = /*html*/ `<textarea type="text" class="form-TextArea"></textarea>`;

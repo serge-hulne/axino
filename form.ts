@@ -1,7 +1,7 @@
 import { Div } from "./div";
 
 class Form extends Div {
-    constructor(props) {
+    constructor(props:any) {
         if (props) {
             super(props);
             let items = [];

@@ -2,7 +2,7 @@ import { Component } from "./core";
 
 class RadioButton extends Component {
     text: string;
-    constructor(props) {
+    constructor(props:any) {
         super(props);
 
         this.htmlString = /*html*/ `<label>
@@ -26,11 +26,11 @@ class RadioButton extends Component {
         return this.node.options[this.node.RadioButtonedIndex].value;
     }
 
-    setChecked(choice) {
+    setChecked(choice:any) {
         this.node.options[this.node.RadioButtonedIndex].value = choice;
     }
 
-    click(clickFN) {
+    click(clickFN:any) {
         this.node.addEventListener("click", clickFN);
     }
 }

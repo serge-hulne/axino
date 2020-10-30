@@ -2,7 +2,7 @@ import { Component } from "./core";
 
 
 class Button extends Component {
-    constructor(text: string, props=null) {
+    constructor(text: string, props:any=null) {
         super(props);
         this.htmlString = /*html*/ `<button>${text}</button>`;
         this.createNode();

@@ -9,7 +9,7 @@ class Input extends Component {
         this.createNode();
     }
 
-    setText(text) {
+    setText(text:any) {
         this.node.innerHTML = text;
     }
 

@@ -2,14 +2,14 @@ import { Div } from "./div";
 
 class Select extends Div {
     items: string;
-    constructor(props) {
+    constructor(props:any) {
         super(props);
         let items = [];
         if (props) {
             if (props.items) {
                 items = props.items;
                 this.items = "";
-                items.forEach(item => {
+                items.forEach((item:any) => {
                     this.items += `\t<option value="${item}">${item}</option>`
                 });
                 this.htmlString = `<select>\n${this.items}</select>`;
@@ -26,11 +26,11 @@ class Select extends Div {
         return this.node.options[this.node.selectedIndex].value;
     }
 
-    setChecked(choice) {
+    setChecked(choice:any) {
         this.node.options[this.node.selectedIndex].value = choice;
     }
 
-    click(clickFN) {
+    click(clickFN:any) {
         this.node.addEventListener("click", clickFN);
     }
 }

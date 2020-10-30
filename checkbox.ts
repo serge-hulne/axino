@@ -2,7 +2,7 @@ import { Component } from "./core";
 
 class CheckBox extends Component {
     text : string;
-    constructor(props) {
+    constructor(props:any) {
         super(props);
         this.htmlString = /*html*/ `<label>
         <input type="checkbox">
@@ -24,11 +24,11 @@ class CheckBox extends Component {
         return this.node.options[this.node.CheckBoxedIndex].value;
     }
 
-    setChecked(choice) {
+    setChecked(choice:any) {
         this.node.options[this.node.CheckBoxedIndex].value = choice;
     }
 
-    click(clickFN) {
+    click(clickFN:any) {
         this.node.addEventListener("click", clickFN);
     }
 }

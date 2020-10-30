@@ -1,7 +1,7 @@
 import { Component } from "./core";
 
 class Div extends Component {
-    constructor(props) {
+    constructor(props:any) {
         super(props);
         this.htmlString = /*html*/ `<div></div>`;
         this.createNode();

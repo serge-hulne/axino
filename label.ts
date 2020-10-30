@@ -3,7 +3,7 @@ import { Component } from "./core";
 
 class Label extends Component {
 
-    constructor(text: string, props=null) {
+    constructor(text: string, props:any=null) {
         super(props);
         this.htmlString = /*html*/ `<span>${text}</span>`;
         this.createNode();
@@ -15,7 +15,7 @@ class Label extends Component {
         }
     }
 
-    setText(text) {
+    setText(text:any) {
         this.node.innerHTML = text;
     }
 

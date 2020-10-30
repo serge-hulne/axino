@@ -9,7 +9,7 @@ class Channel {
             this.value = null;
         }
 
-        send(value)  {
+        send(value:any)  {
             this.value = value;
             var event = new CustomEvent(this.id, {
                 detail: {
@@ -19,7 +19,7 @@ class Channel {
             document.dispatchEvent(event);
         }
         
-        listen(callback) {
+        listen(callback:any) {
             document.addEventListener(this.id, callback);
         }
 

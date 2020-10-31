@@ -14,7 +14,7 @@
   "author": "Serge HULNE",
   "license": "GPL",
   "dependencies": {
-    "axino": "^1.0.14"
+    "axino": "^1.0.21"
   },
   "devDependencies": {
     "typescript": "^4.0.5"

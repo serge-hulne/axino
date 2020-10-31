@@ -22,7 +22,7 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "axino": "^1.0.18",
+    "axino": "^1.0.21",
     "picnic": "^6.5.3"
   }
 }

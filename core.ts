@@ -65,17 +65,6 @@ class Component {
 
     appendTo(other: Component) {
         other.node.appendChild(this.node);
-        var temp = this.node;
-        var clone = temp.firstChild.cloneNode(true);
-        if (temp.parentNode) {
-            let parent = this.node.parentNode;
-            parent.appendChild(clone);
-            parent.removeChild(temp);
-            temp.remove();
-            //log({ temp: temp });
-            this.node = clone;
-            //log({ this_node: this.node });
-        }
     }
 
 

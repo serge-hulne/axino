@@ -1,14 +1,17 @@
-import { Component } from "./core";
+import { Component, log } from "./core";
 
 class CheckBox extends Component {
+    
     text : string;
-    constructor(props:any) {
+    checked:boolean=false;
+
+    constructor(props:any=null) {
+
         super(props);
-        this.htmlString = /*html*/ `<label>
-        <input type="checkbox">
-        <span class="checkable">${this.text}</span>
-      </label>`;
+        this.text = "[&nbsp;]";
+        this.htmlString = /*html*/ `<button>${this.text}</button>`;
         this.createNode();
+
         //console.log(this.htmlString);
         if (props) {
             if (props.parent) {
@@ -20,18 +23,19 @@ class CheckBox extends Component {
         }
     }
 
-    getChecked() {
-        return this.node.options[this.node.CheckBoxedIndex].value;
+    isChecked() : boolean {
+        return this.checked;
     }
 
-    setChecked(choice:any) {
-        this.node.options[this.node.CheckBoxedIndex].value = choice;
+    setChecked(choice:boolean) {
+        this.checked = choice;
+        if (choice === true) {
+            this.node.innerHTML = /*html*/ `<button>[x]</button>`;
+        } else {
+            this.node.innerHTML = /*html*/ `<button>[&nbsp;]</button>`;
+        }
     }
 
-    click(clickFN:any) {
-        this.node.addEventListener("click", clickFN);
-    }
 }
-
 
 export { CheckBox };  

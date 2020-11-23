@@ -13,7 +13,7 @@ class Channel {
             this.value = value;
             var event = new CustomEvent(this.id, {
                 detail: {
-                    text: value
+                    value: value
                 }
             });
             document.dispatchEvent(event);
